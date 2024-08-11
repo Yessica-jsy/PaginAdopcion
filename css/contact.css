@@ -1,0 +1,44 @@
+body{
+    background-image: url("/img/fondo.jpg");
+    background-size: cover;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.234);
+}
+.info, .form{
+    margin-top: 70px;
+    width: 40%;
+    height: 80vh;
+}
+.form{
+    color: rgb(39, 40, 40);
+    background-color: rgb(255, 255, 255);
+}
+.container-form{
+    box-sizing: content-box;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+input{
+    height: 40px;
+    padding: 0 15px;
+}
+textarea{
+    height: 150px;
+    padding: 15px;
+}
+.contact-header{
+    display: flex;
+    flex-direction: row;
+    column-gap: 7px;
+    align-items: center;
+}

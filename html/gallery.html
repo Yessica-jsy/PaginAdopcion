@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Perritos</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/gallery.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="menu-container" id="mySidenav">
+            <div class="sidenav">
+                <div class="botonX"> 
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                </div>
+                <a class="noClose" href="/html/gallery.html">Galeria de Perritos</a>
+                <a class="noClose" href="/html/form.html">Formulario de Adopción</a>
+                <a class="noClose" href="/html/contact.html">Contacto</a>
+                <div class="noClose" style="font-size: 1.2em; position: absolute; bottom: 0;"><p onclick="modal()" class=" termPoli" >Términos de Uso</p>
+                <p onclick="modal2()" class="termPoli">Poíticas de Privacidad</p></div>
+                
+            </div>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        
+        <a href="/index.html""><img  style="width: 40px; margin: 6px;" src="/img/raccoon.png" alt=""></a>
+    </nav>
+</header>
+
+    <main>
+        <h1 style="font-size: 2.5em;">Galería de Perritos en Adopción</h1>
+    <p style="padding-bottom: 20px; font-size: 1.3em;">Explora nuestra galería de adorables perritos en busca de un hogar. Cada uno está esperando por alguien especial como tú.</p>
+
+        <ul style="list-style: none;" id="dogList">
+
+        </ul>
+    </main>
+    <footer id="pie">
+        <div class="right">
+            <p><strong>Número de Teléfono:</strong> 1 (555) 123-456</p>
+            <p><strong>Direccion:</strong> 123  Calle falsa, Ciudad Ficticia</p>
+            <p>Redes Sociales</p>
+            <p><strong>Diseño y desarrollo por:</strong> Rodriguez Rodriguez</p>
+            <p><strong>Contacto para Diseño Web: </strong>rodriguesrodriguez@perrito24hr.com</p>
+        </div>
+        <div class="left">
+            <p>Imagenes cortesia de <strong>Pixabay</strong> </p>
+            <p onclick="modal2()" class="termPoli">Poíticas de Privacidad</p>
+            <div id="intopoli" >
+              <div class="into-content">
+                <div class="term-container">
+                  <span onclick="document.getElementById('intopoli').style.display='none'" >&times;</span>
+                  <h2>Política de Privacidad</h2>
+                  <h3>1. Recopilación de Información Personal:</h3>
+                  <p>Recopilamos la información personal proporcionada voluntariamente por los usuarios al completar el formulario de adopción, incluyendo nombre, dirección, número de teléfono y correo electrónico.</p>
+                  <h3>2. Uso de la Información:</h3>
+                  <p>La información recolectada se utilizará exclusivamente para el proceso de adopción, incluyendo la verificación de la idoneidad del adoptante y la comunicación en relación con el proceso.</p>
+                  <h3>3. Divulgación de Información:</h3>
+                  <p>No compartiremos la información personal de los usuarios con terceros, excepto cuando sea requerido por la ley o cuando sea necesario para proteger los derechos, la propiedad o la seguridad de nuestro sitio web o de los animales en adopción.</p>
+                  <h3>4. Seguridad de la Información:</h3>
+                  <p>Tomamos medidas razonables para proteger la información personal de los usuarios contra el acceso no autorizado, el uso o la divulgación.</p>
+                  <h3>5. Derechos de los Usuarios:</h3>
+                  <p>Los usuarios tienen derecho a acceder, rectificar o eliminar su información personal de nuestra base de datos en cualquier momento. Para ejercer estos derechos, pueden contactarnos a través de la información de contacto proporcionada en nuestro sitio web.</p>
+                  <h3>6. Cambios en la Política de Privacidad:</h3>
+                  <p>Nos reservamos el derecho de modificar esta Política de Privacidad en cualquier momento. Los cambios serán publicados en esta página y serán efectivos desde el momento de su publicación.</p>
+                  <h3>7. Legislación Aplicable:</h3>
+                  <p>Esta Política de Privacidad se rige por las leyes de la República de Colombia.</p>
+                </div>
+              </div>
+            </div>
+            <p onclick="modal()" class="termPoli">Términos de Uso</p>
+            <div id="into" >
+              <div class="into-content">
+                <div class="term-container">
+                  <span onclick="document.getElementById('into').style.display='none'" >&times;</span>
+                  <h2>Términos y Condiciones para Formularios de Adopción</h2>
+                  <h3>1. Aceptación de Términos:</h3>
+                  <p>Al completar el formulario de adopción en nuestro sitio web, el usuario acepta los presentes Términos y Condiciones.</p>
+                  <h3>2. Requisitos para la Adopción:</h3>
+                  <p>El solicitante debe ser mayor de edad (18 años o más) y proporcionar información verídica y actualizada en el formulario de adopción.</p>
+                  <h3>3. Proceso de Adopción:</h3>
+                  <p>El envío del formulario de adopción no garantiza la aprobación para la adopción. La aprobación está sujeta a la revisión de la información proporcionada y a una entrevista personal o telefónica.</p>
+                  <h3>4. Uso de Información:</h3>
+                  <p>La información suministrada en el formulario de adopción se utilizará únicamente para evaluar la idoneidad del solicitante y contactar al usuario en relación con el proceso de adopción.</p>
+                  <h3>5. Responsabilidades del Adoptante:</h3>
+                  <p>El adoptante se compromete a brindar un hogar seguro y adecuado para el animal, así como a cumplir con todas las obligaciones legales y veterinarias.</p>
+                  <h3>6. Modificaciones a los Términos:</h3>
+                  <p>Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento. Las modificaciones serán publicadas en esta página y serán efectivas desde el momento de su publicación.</p>
+                  <h3>7. Legislación Aplicable:</h3>
+                  <p>Estos Términos y Condiciones se rigen por las leyes de la República de Colombia.</p>
+                </div>
+              </div>
+            </div>
+            <p>© 2024 Adopta un Peludo. Todos los derechos reservados.</p>
+    </footer>
+      <script src="/js/general.js"></script>
+      <script src="/js/gallery.js"></script>
+</body>
+</html>

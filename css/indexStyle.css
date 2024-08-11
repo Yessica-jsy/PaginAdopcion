@@ -1,0 +1,132 @@
+
+.back{
+    background-image: url("/img/hlda.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+.opacity{
+    background-color:  rgba(0, 0, 0, 0.41);
+    height: 100%;
+}
+nav{
+  position: absolute;
+}
+.adopt{
+    padding: 17% 0;
+    margin: 0 10%;
+    width: 60%;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+h1{
+    color: aquamarine;
+    font-size: 3.8em;
+    font-family: "Bree Serif";
+}
+.adopt>p{
+    font-size: 1.5em;
+    height: auto;
+}
+.destacados{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.flip-card {
+    background-color: transparent;
+    height: 280px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-size: cover;
+    border-radius: 20px;
+  }
+  
+  .flip-card-back {
+    background-color:#818181;
+    color: white;
+    border-radius: 20px;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+  }
+  .puppies{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+  }
+  .destacados>a{
+    box-shadow: 0 0 10px rgb(116, 35, 122);
+    border-radius: 2px;
+    width: 100px;
+    font-size: x-large;
+    text-align: center;
+    margin: auto;
+  }
+.flip-card-back>h2{
+  line-height: 40px;
+  color: rgb(0, 0, 0);
+  font-family: "Courgette", cursive;
+  font-size: 2em;
+}
+.caracteriticas>p{
+  color: rgb(0, 0, 0);
+  font-family: "Courgette", cursive;
+  font-size:1em;
+  width: 40%;
+}
+.caracteriticas{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  height: 20px;
+}
+.barra{
+  border: 2px solid rgb(43, 43, 121);
+  width:  60%;
+  height: 20px;
+  border-radius: 10px 10px 10px 10px;
+}
+.porcentaje{
+  border-radius: 10px 10px 10px 10px;
+  height: 100%;
+  margin: 0;
+}
+main{
+  height: 100%;
+  background-color: #ded7d7;
+  padding-bottom: 50px;
+}
