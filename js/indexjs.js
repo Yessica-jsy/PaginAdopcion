@@ -2,10 +2,10 @@ document.addEventListener("DOMContentLoaded", function(){
     const perritos = [
         {
             nombre: "Luna",
-            imagen: "/img/raccoon.png",
+            imagen: /img/raccoon.png",
             caracteristicas: [
                 {nombre: "Sociable", porcentaje: 40, color: "blue"},
-                {nombre: "Leal", porcentaje: 100, color: "red"},
+                {nombre: "Leal", porcentaje: 100, color: "red"},"
                 {nombre: "Inteligencia", porcentaje: 70, color: "yellow"},
                 {nombre: "Carinioso", porcentaje: 90, color: "green"},
                 {nombre: "Dependiente", porcentaje: 90, color: "purple"}
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
         },
         {
             nombre: "Copi Copi",
-            imagen: "/img/raccoon.png",
+            imagen: /img/raccoon.png",
             caracteristicas: [
                 {nombre: "Sociable", porcentaje: 100, color: "blue"},
                 {nombre: "Leal", porcentaje: 100, color: "red"},
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function(){
         },
         {
             nombre: "Lucy",
-            imagen: "/img/raccoon.png",
+            imagen: /img/raccoon.png",
             caracteristicas: [
                 {nombre: "Sociable", porcentaje: 100, color: "blue"},
                 {nombre: "Leal", porcentaje: 50, color: "red"},
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function(){
         },
         {
             nombre: "Mateo",
-            imagen: "/img/raccoon.png",
+            imagen: /img/raccoon.png",
             caracteristicas: [
                 {nombre: "Sociable", porcentaje: 90 , color: "blue"},
                 {nombre: "Leal", porcentaje: 100 , color: "red"},
