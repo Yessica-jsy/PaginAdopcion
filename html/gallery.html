@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria de Perritos</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/gallery.css">
+    <title>Galería de Perritos</title>
+    <link rel="stylesheet" href="../css/galeria.css">
+    <link rel="stylesheet" href="../css/style.css">
+
 </head>
 <body>
   <header>
@@ -15,23 +16,24 @@
                 <div class="botonX"> 
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 </div>
-                <a class="noClose" href="/html/gallery.html">Galeria de Perritos</a>
-                <a class="noClose" href="/html/form.html">Formulario de Adopción</a>
-                <a class="noClose" href="/html/contact.html">Contacto</a>
-                <div class="noClose" style="font-size: 1.2em; position: absolute; bottom: 0;"><p onclick="modal()" class=" termPoli" >Términos de Uso</p>
-                <p onclick="modal2()" class="termPoli">Poíticas de Privacidad</p></div>
-                
+                <a class="noClose" href="../html/gallery.html">Galeria de Perritos</a>
+                <a class="noClose" href="../html/form.html">Formulario de Adopción</a>
+                <a class="noClose" href="../html/contact.html">Contacto</a>
+                <div class="noClose" style="font-size: 1.2em; position: absolute; bottom: 0;">
+                    <p onclick="modal()" class="termPoli">Términos de Uso</p>
+                    <p onclick="modal2()" class="termPoli">Políticas de Privacidad</p>
+                </div>
             </div>
         </div>
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
         
-        <a href="/index.html""><img  style="width: 40px; margin: 6px;" src="/img/raccoon.png" alt=""></a>
+        <a href="index.html"><img style="width: 40px; margin: 6px;" src="../img/raccoon.png" alt=""></a>
     </nav>
 </header>
 
     <main>
         <h1 style="font-size: 2.5em;">Galería de Perritos en Adopción</h1>
-    <p style="padding-bottom: 20px; font-size: 1.3em;">Explora nuestra galería de adorables perritos en busca de un hogar. Cada uno está esperando por alguien especial como tú.</p>
+        <p style="padding-bottom: 20px; font-size: 1.3em;">Explora nuestra galería de adorables perritos en busca de un hogar. Cada uno está esperando por alguien especial como tú.</p>
 
         <ul style="list-style: none;" id="dogList">
 
@@ -40,18 +42,18 @@
     <footer id="pie">
         <div class="right">
             <p><strong>Número de Teléfono:</strong> 1 (555) 123-456</p>
-            <p><strong>Direccion:</strong> 123  Calle falsa, Ciudad Ficticia</p>
+            <p><strong>Dirección:</strong> 123 Calle Falsa, Ciudad Ficticia</p>
             <p>Redes Sociales</p>
             <p><strong>Diseño y desarrollo por:</strong> Rodriguez Rodriguez</p>
-            <p><strong>Contacto para Diseño Web: </strong>rodriguesrodriguez@perrito24hr.com</p>
+            <p><strong>Contacto para Diseño Web:</strong> rodriguesrodriguez@perrito24hr.com</p>
         </div>
         <div class="left">
-            <p>Imagenes cortesia de <strong>Pixabay</strong> </p>
-            <p onclick="modal2()" class="termPoli">Poíticas de Privacidad</p>
-            <div id="intopoli" >
+            <p>Imágenes cortesía de <strong>Pixabay</strong></p>
+            <p onclick="modal2()" class="termPoli">Políticas de Privacidad</p>
+            <div id="intopoli">
               <div class="into-content">
                 <div class="term-container">
-                  <span onclick="document.getElementById('intopoli').style.display='none'" >&times;</span>
+                  <span onclick="document.getElementById('intopoli').style.display='none'">&times;</span>
                   <h2>Política de Privacidad</h2>
                   <h3>1. Recopilación de Información Personal:</h3>
                   <p>Recopilamos la información personal proporcionada voluntariamente por los usuarios al completar el formulario de adopción, incluyendo nombre, dirección, número de teléfono y correo electrónico.</p>
@@ -71,10 +73,10 @@
               </div>
             </div>
             <p onclick="modal()" class="termPoli">Términos de Uso</p>
-            <div id="into" >
+            <div id="into">
               <div class="into-content">
                 <div class="term-container">
-                  <span onclick="document.getElementById('into').style.display='none'" >&times;</span>
+                  <span onclick="document.getElementById('into').style.display='none'">&times;</span>
                   <h2>Términos y Condiciones para Formularios de Adopción</h2>
                   <h3>1. Aceptación de Términos:</h3>
                   <p>Al completar el formulario de adopción en nuestro sitio web, el usuario acepta los presentes Términos y Condiciones.</p>
@@ -95,7 +97,7 @@
             </div>
             <p>© 2024 Adopta un Peludo. Todos los derechos reservados.</p>
     </footer>
-      <script src="/js/general.js"></script>
-      <script src="/js/gallery.js"></script>
+    <script src='../js/gallery.js'></script>
+    <script src='../js/general.js'></script>
 </body>
 </html>
