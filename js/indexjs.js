@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(){
             imagen: "img/raccoon.png",
             caracteristicas: [
                 {nombre: "Sociable", porcentaje: 40, color: "blue"},
-                {nombre: "Leal", porcentaje: 100, color: "red"},
+                {nombre: "Leal", porcentaje: 100, color: "red"},"
                 {nombre: "Inteligencia", porcentaje: 70, color: "yellow"},
                 {nombre: "Carinioso", porcentaje: 90, color: "green"},
                 {nombre: "Dependiente", porcentaje: 90, color: "purple"}
